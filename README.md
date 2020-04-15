@@ -15,3 +15,7 @@ sudo ./initchip.sh
 ```
 
 需要确认的时候输入`y`确认。
+
+语言配置按空格选择`en_US_UTF8-UTF8`与`zh_CN_UTF8-UTF8`，再按回车确认。
+
+安装好后请自行`sudo reboot`重启。
