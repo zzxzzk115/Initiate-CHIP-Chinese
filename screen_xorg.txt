@@ -1,0 +1,6 @@
+Section "InputClass"
+Identifier "calibration"
+MatchProduct "1c25000.rtp"
+Option "Calibration" "3980 226 3564 343"
+Option "SwapAxes" "0"
+EndSection
