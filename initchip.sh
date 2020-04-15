@@ -4,7 +4,7 @@
  # @Author: JackZhang
  # @Date: 2020-04-15 13:33:30
  # @LastEditors: JackZhang
- # @LastEditTime: 2020-04-15 17:08:30
+ # @LastEditTime: 2020-04-15 17:47:23
  ###
 
 # Fix Sources
@@ -32,3 +32,9 @@ sudo apt-get install xinput-calibrator scim-pinyin ttf-wqy-zenhei locales xfce4-
 
 sudo dpkg-reconfigure locales
 
+# Fix keyboard
+cd ~
+git clone https://github.com/AllGray/PocketDesk.git
+cd PocketDesk/
+sudo cp files/.Xmodmap ~/.Xmodmap
+sudo cp files/.xinitrc ~/.xinitrc
