@@ -18,4 +18,10 @@ sudo ./initchip.sh
 
 语言配置按空格选择`en_US_UTF8-UTF8`与`zh_CN_UTF8-UTF8`，再按回车确认。
 
+执行完后已经下载了PocketDesk，
+
+具体怎么使用，看[这里](<https://github.com/AllGray/PocketDesk>)
+
+你可能需要局域网代理才能全部正常安装，这，咳咳，我就不多提了，懂的人都懂。
+
 安装好后请自行`sudo reboot`重启。
